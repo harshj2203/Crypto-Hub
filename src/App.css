@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: gold;
+}
+
+.App {
+  background-color: #14161a;
+  color: white;
+  min-height: 100vh;
+}
+
+.title {
+  flex: 1;
+  color: gold;
+  cursor: pointer;
+}
+
+.banner {
+  background-image: url(../public/banner2.jpg);
+}
+
+.bannerContent {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+  justify-content: space-around;
+}
+
+.tagline {
+  display: flex;
+  height: 40%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.carousel {
+  height: 50%;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+
+.carouselItem {
+  font-family: "Montserrat" !important;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 32px;
+}
+.carouselItem:hover{
+  transform: scale(1.07);
+}
+
+.price{
+  margin-top: 15px;
+  font-size: 25px !important;
+  font-weight:150 !important;
+}
+
+.row {
+  background-color: #16171a;
+  cursor: pointer;
+  font-family: "Montserrat";
+}
+
+.row:hover {
+  background-color: #131111;
+}
+
+.container {
+  display: flex;
+}
+
+@media (max-width: 1274px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.sidebar {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  border-right: 2px solid grey;
+}
+
+@media (max-width: 1274px) {
+  .sidebar {
+    width: 100%;
+    align-items: center;
+  }
+}
+
+.heading {
+  font-weight: bold !important;
+  margin-bottom: 20px !important;
+  font-family: "Montserrat" !important;
+}
+
+.description {
+  width: 100%;
+  font-family: "Montserrat";
+  padding: 25px;
+  padding-bottom: 15px !important;
+  padding-top: 0px;
+  text-align: justify;
+}
+
+.marketData {
+  align-self: start;
+  padding: 25px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+@media (max-width: 1274px) {
+  .marketData {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .marketData {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .marketData {
+    align-items: start;
+  }
+}
+
+.chartcontainer {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  padding: 40px;
+}
+
+@media (max-width: 1274px) {
+  .chartcontainer {
+    width: 100%;
+    margin-top: 0px;
+    padding: 20px;
+    padding-top: 0px;
+  }
+}
+.selectbutton{
+  border: 1px solid gold;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-family: "Montserrat";
+  cursor: pointer; 
+  width: 22%;
+}
+
+.selectbutton:hover{
+  background-color: gold;
+  color: black;
+}
+
+.newsCard{
+  background-color: #131111 !important;
+  width: 100%;
+  margin-top: 15px;
+  color:white !important;
+  transition: transform 0.2s;
+  height: 300px;
+}
+.newsCard:hover{
+  transform: scale(1.05);
+}
+
+.newsDescription{
+  height: 50%; 
+  display: flex; 
+  align-items: center;
+  padding-left:15px;
+  padding-right:15px;
+  color:darkgrey;
+  text-align:justify;
+  font-size: 14px;
+}
+
+.footer{
+  margin-top:30px;
+  height: 150px;
+  background-color: #EEBC1D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social{
+  display: flex;
+  width: 350px;
+  justify-content: space-around;
+}
+
+.icons{
+  filter:drop-shadow(3px 3px 20px black) !important;
+  color: white;
+}
+.icons:hover{
+  transform: scale(1.1);
+}
