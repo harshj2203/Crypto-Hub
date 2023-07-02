@@ -5,7 +5,7 @@ function Banner() {
     return (<div className="banner">
         <Container className="bannerContent">
             <div className="tagline">
-                <Typography variant="h2" style={{ fontWeight: "bold", marginBottom: 15, fontFamily: "Montserrat" }}>
+                <Typography variant="h2" className="bannertitle" style={{ fontWeight: "bold", marginBottom: 15, fontFamily: "Montserrat", }}>
                     Crypto Hub
                 </Typography>
                 <Typography variant="subtitle2" style={{ color: "darkgrey", textTransform: "capitalize", fontFamily: "Montserrat" }}>

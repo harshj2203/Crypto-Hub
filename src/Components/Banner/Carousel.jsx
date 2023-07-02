@@ -66,7 +66,7 @@ function Carousel() {
           0: {
             items: 2
           },
-          512: {
+          600: {
             items: 4
           }
         }}

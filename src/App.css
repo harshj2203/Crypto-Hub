@@ -72,6 +72,16 @@ a {
   font-weight:150 !important;
 }
 
+@media(max-width: 420px){
+  .bannertitle{
+   font-size: 14vw !important;
+  }
+  .price{
+   font-size: 20px !important;
+  }
+ 
+ }
+
 .row {
   background-color: #16171a;
   cursor: pointer;
