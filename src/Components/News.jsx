@@ -51,9 +51,9 @@ function News() {
                             <Grid item lg={6} md={6} sm={12}>
                                 <Link to={card.url} target='_blank'>
                                     <Paper elevation={10} className='newsCard'>
-                                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: "space-around", height: "35%", paddingLeft: 15, paddingRight: 15 }}>
-                                            <div style={{ width: "75%", textAlign: "justify" }}>{card.name}</div>
-                                            <img src={card?.image?.thumbnail?.contentUrl || demoimage} alt='img' style={{ maxWidth: "25%", margin: "10px" }} />
+                                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: "space-around", height: "40%", paddingLeft: 15, paddingRight: 15 }}>
+                                            <div style={{ width: "75%", textAlign: "justify"}}>{card.name}</div>
+                                            <img src={card?.image?.thumbnail?.contentUrl || demoimage} alt='img' style={{ maxWidth: "25%", maxHeight: "85%",margin: "10px" }} />
                                         </div>
                                         <div className="newsDescription">{card.description > 100 ? `${card.description.substring(0, 100)}...` : card.description}</div>
                                         {/* <div style={{height:"15%", display:"flex", justifyContent:"flex-start", alignItems:"center",paddingLeft:15,paddingRight:15 }}>
