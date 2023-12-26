@@ -7,7 +7,7 @@ function HomePage(){
     return(<div>
         <Banner />
         <CoinsTable />
-        <News />
+        {/* <News /> */}
         <Footer />
     </div>);
 }
